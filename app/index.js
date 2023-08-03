@@ -1,10 +1,10 @@
-import { Viev, Text } from "react-native";
+import { View, Text } from "react-native";
 
 const Home = () => {
   return (
-    <Viev>
+    <View>
       <Text> Home </Text>
-    </Viev>
+    </View>
   );
 };
 
