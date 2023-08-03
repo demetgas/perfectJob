@@ -11,6 +11,7 @@ import {
 } from "../components";
 
 const Home = () => {
+  const router = useRouter();
   return (
     <View>
       <Text> Home </Text>
