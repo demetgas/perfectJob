@@ -13,9 +13,9 @@ import {
 const Home = () => {
   const router = useRouter();
   return (
-    <View>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
       <Text> Home </Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
