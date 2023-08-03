@@ -28,7 +28,6 @@ const Home = () => {
           headerTitle: "",
         }}
       />
-
       <ScrollView showsVerticalScrollIndicator={false} />
       <View
         style={{
@@ -37,7 +36,6 @@ const Home = () => {
         }}
       >
         <Welcome />
-
         <Popularjobs />
         <Nearbyjobs />
       </View>
