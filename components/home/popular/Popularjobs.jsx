@@ -15,7 +15,10 @@ const Popularjobs = () => {
   const router = useRouter();
   return (
     <View style={styles.container}>
-      <View style={styles.header}></View>
+      <View style={styles.header}>
+        <Text style={styles.headerTitle}>Popular Jobs</Text>
+        <TouchableOpacity>Show All</TouchableOpacity>
+      </View>
     </View>
   );
 };
