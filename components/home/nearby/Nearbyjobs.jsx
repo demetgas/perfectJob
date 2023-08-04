@@ -21,6 +21,7 @@ const Nearbyjobs = () => {
           <Text style={styles.headerBtn}>Show All</Text>
         </TouchableOpacity>
       </View>
+      
       <View style={styles.cardsContainer}>
         {isLoading ? (
           <ActivityIndicator size="large" color={COLORS.primary} />
