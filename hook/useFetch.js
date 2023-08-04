@@ -6,7 +6,6 @@ const useFetch = (endpoint, query) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const axios = require("axios");
 
   const options = {
     method: "GET",
@@ -26,7 +25,7 @@ const useFetch = (endpoint, query) => {
       setIsLoading(false);
     } catch (error) {
       setError(error);
-      console.log("There is an error");
+      alert(error);
     } finally {
       setIsLoading(false);
     }
