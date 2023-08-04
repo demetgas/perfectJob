@@ -1,7 +1,7 @@
 import React from "react";
-
+import { Text } from "react-native";
 const JobDetails = () => {
-  return <div>[id]</div>;
+  return <Text>JobDetails</Text>;
 };
 
 export default JobDetails;
