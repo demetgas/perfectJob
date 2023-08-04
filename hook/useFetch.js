@@ -4,7 +4,7 @@ import { RAPID_API_JEY } from "@env";
 
 const rapidApiKey = RAPID_API_JEY;
 
-const useFetch = (endpoint,query) => {
+const useFetch = (endpoint, query) => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -18,6 +18,15 @@ const useFetch = (endpoint,query) => {
       "X-RapidAPI-Key": rapidApiKey,
       "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
     },
-    params: {...query},
+    params: { ...query },
+  };
+
+  const fetchData = async () => {
+    setIsLoading(true);
+    try {
+      const response = await axios.request(options);
+    } catch (error) {
+    } finally {
+    }
   };
 };
