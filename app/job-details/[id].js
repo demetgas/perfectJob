@@ -48,7 +48,7 @@ const JobDetails = () => {
           ),
           headerTitle: "",
         }}
-      ></Stack.Screen>
+      />
     </SafeAreaView>
   );
 };
