@@ -1,7 +1,7 @@
 import React from "react";
 
-const [id] = () => {
+const JobDetails = () => {
   return <div>[id]</div>;
 };
 
-export default [id];
+export default JobDetails;
