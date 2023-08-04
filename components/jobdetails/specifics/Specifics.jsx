@@ -7,7 +7,15 @@ const Specifics = ({ title, points }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}:</Text>
-      <View style={styles.pointsContainer}></View>
+      <View style={styles.pointsContainer}>
+        {points.map((item, index) => (
+          <View>
+            <Text style={styles.pointDot}>
+              <Text>{item}</Text>
+            </Text>
+          </View>
+        ))}
+      </View>
     </View>
   );
 };
