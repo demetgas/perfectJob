@@ -1,9 +1,9 @@
 import { View, Text, TouchableOpacity, Image } from "react-native";
 
-import styles from "./popularjobcard.style";
+import styles from "./nearbyjobcard.style";
 import { checkImageURL } from "../../../../utils";
 
-const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
+const NearbyJobCard = ({ job,handleNavigate }) => {
   return (
     <TouchableOpacity
       style={styles.container(selectedJob, item)}
@@ -33,4 +33,4 @@ const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
   );
 };
 
-export default PopularJobCard;
+export default NearbyJobCard;
