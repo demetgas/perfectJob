@@ -29,7 +29,11 @@ const JobDetails = () => {
     job_id: params.id,
   });
 
-  return <Text>JobDetails</Text>;
+  return (
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+      <Stack.Screen></Stack.Screen>
+    </SafeAreaView>
+  );
 };
 
 export default JobDetails;
