@@ -1,3 +1,4 @@
+import React from "react";
 import { View, Text, TouchableOpacity, ActivityIndicator } from "react-native";
 import { useRouter } from "expo-router";
 import styles from "./nearbyjobs.style";
@@ -8,7 +9,7 @@ import useFetch from "../../../hook/useFetch";
 const Nearbyjobs = () => {
   const router = useRouter();
   const { data, isLoading, error } = useFetch("search", {
-    query: "React developer",
+    query: "React Native Developer",
     num_pages: 1,
   });
 
