@@ -7,7 +7,6 @@ import {
   Nearbyjobs,
   Popularjobs,
   ScreenHeaderBtn,
-  Welcom,
   Welcome,
 } from "../components";
 
